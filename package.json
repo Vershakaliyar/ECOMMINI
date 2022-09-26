@@ -104,7 +104,7 @@
     "yaml": "^1.10.0"
   },
   "scripts": {
-    "start": "node backend/server",
+    "start": "node server",
     "server": "npx nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\" ",
